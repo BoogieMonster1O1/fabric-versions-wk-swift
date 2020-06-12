@@ -13,7 +13,6 @@
 		64C5F74B24933C22008F5641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C5F74924933C22008F5641 /* Main.storyboard */; };
 		64C5F74D24933C26008F5641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C5F74C24933C26008F5641 /* Assets.xcassets */; };
 		64C5F75024933C26008F5641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C5F74E24933C26008F5641 /* LaunchScreen.storyboard */; };
-		64C5F75B249341AA008F5641 /* index.txt in Resources */ = {isa = PBXBuildFile; fileRef = 64C5F75A249341AA008F5641 /* index.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		64C5F74F24933C26008F5641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64C5F75124933C26008F5641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64C5F75724933CCB008F5641 /* Fabric versions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Fabric versions.entitlements"; sourceTree = "<group>"; };
-		64C5F75A249341AA008F5641 /* index.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = index.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +57,6 @@
 		64C5F74224933C22008F5641 /* Fabric versions */ = {
 			isa = PBXGroup;
 			children = (
-				64C5F75A249341AA008F5641 /* index.txt */,
 				64C5F75724933CCB008F5641 /* Fabric versions.entitlements */,
 				64C5F74324933C22008F5641 /* AppDelegate.swift */,
 				64C5F74524933C22008F5641 /* SceneDelegate.swift */,
@@ -133,7 +130,6 @@
 				64C5F75024933C26008F5641 /* LaunchScreen.storyboard in Resources */,
 				64C5F74D24933C26008F5641 /* Assets.xcassets in Resources */,
 				64C5F74B24933C22008F5641 /* Main.storyboard in Resources */,
-				64C5F75B249341AA008F5641 /* index.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

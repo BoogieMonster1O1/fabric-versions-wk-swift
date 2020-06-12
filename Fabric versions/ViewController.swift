@@ -14,8 +14,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let url = Bundle.main.url(forResource: "index", withExtension: "txt") {
-            webView.loadFileURL(url, allowingReadAccessTo: url.deletingLastPathComponent())
+        if let url = URL(string: "https://boogiemonster1o1.github.io/a.html") {
+            let request = URLRequest(url: url)
+            webView.load(request)
         }
     }
     override func loadView() {
